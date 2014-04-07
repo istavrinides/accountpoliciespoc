@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LogDb" Class="LogDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\LogDb.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="LogDbConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.IncreaseIPAddressInvalidAttempts" Method="IncreaseIPAddressInvalidAttempts">
+    <Parameter Name="IPAddress" Parameter="iPAddress" Type="System.String" DbType="NVarChar(15)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.RemoveIPAddressInvalidAttempt" Method="RemoveIPAddressInvalidAttempt">
+    <Parameter Name="IPAddress" Parameter="iPAddress" Type="System.String" DbType="NVarChar(15)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.IPAddressExceededInvalidAttempts" Method="IPAddressExceededInvalidAttempts" IsComposable="true">
+    <Parameter Name="IPAddress" Parameter="iPAddress" Type="System.String" DbType="NVarChar(15)" />
+    <Return Type="System.Boolean" />
+  </Function>
+</Database>

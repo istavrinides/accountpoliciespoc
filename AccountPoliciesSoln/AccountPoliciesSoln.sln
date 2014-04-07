@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AccountPoliciesWebSite", "..\..\WebSites\AccountPoliciesWebSite", "{31D781A4-4296-447F-81DB-9C1C257CF437}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/AccountPoliciesWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\AccountPoliciesWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AccountPoliciesWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AccountPoliciesWebSite"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\AccountPoliciesWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AccountPoliciesWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51032"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs21
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = ..\\..\\WebSites\\AccountPoliciesWebSite
+		SccProjectName1 = AccountPoliciesWebSite
+		SccLocalPath1 = ..\\..\\WebSites\\AccountPoliciesWebSite
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31D781A4-4296-447F-81DB-9C1C257CF437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D781A4-4296-447F-81DB-9C1C257CF437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
